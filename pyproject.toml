@@ -1,0 +1,40 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = "Fastapi Poetry Template"
+authors = [
+    {name = "pptx704"},
+]
+readme = "README.md"
+requires-python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+bcrypt = "^4.3.0"
+fastapi = {extras = ["standard"], version = "^0.115.13"}
+pydantic-settings = "^2.10.0"
+sqlalchemy = "^2.0.41"
+pyjwt = "^2.10.1"
+alembic = "^1.16.2"
+python-dotenv = "^1.1.0"
+psycopg2-binary = "^2.9.10"
+redis = {version = "^6.2.0", extras = ["hiredis"]}
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+pytest-asyncio = "^1.0.0"
+httpx = "^0.28.1"
+black = "^25.1.0"
+isort = "^6.0.1"
+pre-commit = "^4.2.0"
+
+[tool.black]
+line-length = 80
+
+[tool.isort]
+profile = "black"
+line_length = 80
