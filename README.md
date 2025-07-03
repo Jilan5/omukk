@@ -166,7 +166,7 @@ REDIS_URL=redis://redis:6379/0
 
 1. **Clone and Navigate**
    ```bash
-   cd python-hiring-task
+   cd omukk
    ```
 
 2. **Configure Environment**
