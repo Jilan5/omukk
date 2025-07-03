@@ -445,8 +445,8 @@ REDIS_URL=redis://redis:6379/0
 ---
 
 ## 📚 References
-
-<!-- Add your references here -->
+### 1. FastAPI and Alembic- https://www.youtube.com/watch?v=zTSmvUVbk8M
+### 2. How to use Python Poetry- https://www.youtube.com/watch?v=1GDpVK12qbU
 
 ---
 
